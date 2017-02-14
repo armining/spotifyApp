@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { SpotifyService } from '../../services/spotify.service';
 import { Artist } from '../../../Artist';
+import { Routes } from '@angular/router';
 
 @Component({
   selector: 'search',

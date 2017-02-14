@@ -8,6 +8,8 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { AboutComponent } from './components/about/about.component';
 import { SearchComponent } from './components/search/search.component';
+import { ArtistComponent } from './components/artist/artist.component';
+import { CreditComponent } from './components/credit/credit.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +17,8 @@ import { SearchComponent } from './components/search/search.component';
     NavbarComponent,
     AboutComponent,
     SearchComponent,
+    ArtistComponent,
+    CreditComponent,
   ],
   imports: [
     BrowserModule,
