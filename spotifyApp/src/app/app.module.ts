@@ -10,6 +10,7 @@ import { AboutComponent } from './components/about/about.component';
 import { SearchComponent } from './components/search/search.component';
 import { ArtistComponent } from './components/artist/artist.component';
 import { CreditComponent } from './components/credit/credit.component';
+import { AlbumComponent } from './components/album/album.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { CreditComponent } from './components/credit/credit.component';
     SearchComponent,
     ArtistComponent,
     CreditComponent,
+    AlbumComponent,
   ],
   imports: [
     BrowserModule,

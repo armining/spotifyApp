@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { SpotifyService } from '../../services/spotify.service';
 import { Artist } from '../../../Artist';
-import { Routes } from '@angular/router';
 
 @Component({
   selector: 'search',
@@ -10,6 +9,7 @@ import { Routes } from '@angular/router';
   providers: [SpotifyService]
 })
 export class SearchComponent implements OnInit {
+  //type Artist is created in the root directory
   searchRes: Artist[];
   searchStr: string;
 
